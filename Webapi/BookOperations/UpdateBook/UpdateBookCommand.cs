@@ -21,7 +21,7 @@ namespace Webapi.BookOperations.UpdateBook
         {
             var book = _dbContext.Books.SingleOrDefault(x=> x.Id== Model.Id);
             if(book == null)
-                throw new InvalidOperationException("Boş Bırakılamaz");
+                throw new InvalidOperationException("Güncellenecek Kitap Bulanamadı.");
             
             book.GenreId = Model.GenreId != default ? Model.GenreId : book.GenreId;
 
