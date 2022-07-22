@@ -31,3 +31,6 @@ C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\Microsoft.Ent
 C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\fatih\Desktop\Pratikler\Bookstore\Webapi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fatih\Desktop\Pratikler\Bookstore\webapi\bin\Debug\net5.0\FluentValidation.dll
