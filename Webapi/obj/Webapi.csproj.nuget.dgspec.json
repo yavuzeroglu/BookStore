@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\WebApi\\Webapi.csproj": {}
+    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\WebApi\\Webapi.csproj": {
+    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\WebApi\\Webapi.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj",
         "projectName": "Webapi",
-        "projectPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\WebApi\\Webapi.csproj",
+        "projectPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,6 +64,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

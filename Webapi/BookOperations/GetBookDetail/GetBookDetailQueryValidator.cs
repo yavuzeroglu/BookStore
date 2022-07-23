@@ -7,7 +7,7 @@ namespace Webapi.BookOperations.GetBookDetail{
         public int bookId { get; set; }
         public GetBookDetailQueryValidator()
         {
-            RuleFor(command => command.BookId == bookId);
+            RuleFor(query => query.BookId).GreaterThan(0);
         }
     }
 }
