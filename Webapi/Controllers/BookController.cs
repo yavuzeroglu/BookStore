@@ -5,17 +5,17 @@ using AutoMapper;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using Webapi.BookOperations.CreateBook;
-using Webapi.BookOperations.DeleteBook;
-using Webapi.BookOperations.GetBookDetail;
-using Webapi.BookOperations.GetBooks;
-using Webapi.BookOperations.UpdateBook;
+using Webapi.Application.BookOperations.CreateBook;
+using Webapi.Application.BookOperations.DeleteBook;
+using Webapi.Application.BookOperations.GetBookDetail;
+using Webapi.Application.BookOperations.GetBooks;
+using Webapi.Application.BookOperations.UpdateBook;
 using Webapi.DBOperations;
-using static Webapi.BookOperations.CreateBook.CreateBookCommand;
-using static Webapi.BookOperations.GetBookDetail.GetBookDetailQuery;
-using static Webapi.BookOperations.UpdateBook.UpdateBookCommand;
+using static Webapi.Application.BookOperations.CreateBook.CreateBookCommand;
+using static Webapi.Application.BookOperations.GetBookDetail.GetBookDetailQuery;
+using static Webapi.Application.BookOperations.UpdateBook.UpdateBookCommand;
 
-namespace Webapi.AddControllers
+namespace Webapi.Controllers
 {
     [ApiController]
     [Route("[controller]s")]
@@ -28,37 +28,6 @@ namespace Webapi.AddControllers
             _context = context;
             _mapper = mapper;
         }
-
-        // private static List<Book> BookList = new List<Book>()
-        // {
-        //     new Book
-        //     {
-        //         Id = 1, 
-        //         Title = "Lean Startup",
-        //         GenreId = 1, // Personal Growth
-        //         PageCount = 200,
-        //         PublishDate = new DateTime(2001,06,12)
-        //     },
-
-        //     new Book
-        //     {
-        //         Id = 2, 
-        //         Title = "Herland",
-        //         GenreId = 2, // Science Fiction
-        //         PageCount = 250,
-        //         PublishDate = new DateTime(2010,05,23)
-        //     },
-
-        //     new Book
-        //     {
-        //         Id = 3, 
-        //         Title = "Dune",
-        //         GenreId = 2, // Science Fiction
-        //         PageCount = 550,
-        //         PublishDate = new DateTime(2001,12,21)
-        //     }
-
-        // };
 
         [HttpGet]
         public IActionResult GetBooks()
@@ -93,7 +62,6 @@ namespace Webapi.AddControllers
 
         //Post
         [HttpPost]
-
         public IActionResult AddBook([FromBody] CreateBookModel newBook)
         {
             CreateBookCommand command = new CreateBookCommand(_context, _mapper);
