@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\webapi\\Webapi.csproj": {}
+    "c:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\webapi\\Webapi.csproj": {
+    "c:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\webapi\\Webapi.csproj",
+        "projectUniqueName": "c:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj",
         "projectName": "Webapi",
-        "projectPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\webapi\\Webapi.csproj",
+        "projectPath": "c:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\Webapi.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\webapi\\obj\\",
+        "outputPath": "c:\\Users\\fatih\\Desktop\\Pratikler\\Bookstore\\Webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

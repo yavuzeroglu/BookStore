@@ -9,7 +9,7 @@ namespace Webapi.Application.AuthorOperations.Commands.UpdateAuthors
         {
             RuleFor(command => command.AuthorId).GreaterThan(0);
             RuleFor(command => command.Model.Name).NotEmpty().MinimumLength(3);
-            RuleFor(command => command.Model.Birthday).NotEmpty().LessThan(DateTime.Now);
+            RuleFor(command => command.Model.Birthday).NotEmpty().LessThan(DateTime.Now.AddYears(-8));
         }
     }
 }

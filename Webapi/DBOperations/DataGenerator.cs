@@ -74,12 +74,12 @@ namespace Webapi.DBOperations
                     new Author
                     {
                         Name = "Frank Herbert",
-                        Birthday = new DateTime(1920, 10, 08),
+                        Birthday = new DateTime(1920, 10, 08)
                     },
                     new Author
                     {
                         Name = "Eric Ries",
-                        Birthday = new DateTime(1978, 09, 22),
+                        Birthday = new DateTime(1978, 09, 22)
                     },
                     new Author
                     {

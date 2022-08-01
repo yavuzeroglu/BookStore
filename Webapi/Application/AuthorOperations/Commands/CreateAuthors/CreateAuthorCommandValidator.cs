@@ -7,7 +7,7 @@ namespace Webapi.Application.AuthorOperations.Commands.CreateAuthors{
         public CreateAuthorCommandValidator()
         {
             RuleFor(command=> command.Model.Name).NotEmpty().MinimumLength(5);
-            RuleFor(command => command.Model.BirthDay).NotEmpty().LessThan(DateTime.Now.Date);
+            RuleFor(command => command.Model.BirthDay).NotEmpty().LessThan(DateTime.Now.Date.AddYears(-8));
             
             
         }
